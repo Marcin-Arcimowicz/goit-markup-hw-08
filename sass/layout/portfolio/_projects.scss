@@ -1,0 +1,124 @@
+.project__img-name {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  padding: 20px 24px 4px;
+  background-color: $white-color;
+}
+
+.project {
+  padding-top: 56px;
+  padding-bottom: 94px;
+
+  &__item:hover,
+  &__item:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+    transition: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+.project__img-spec {
+  padding: 0px 24px 20px;
+  background-color: $white-color;
+  color: $gray-color;
+}
+
+.project__item:hover .project__overlay {
+  transform: translateY(0);
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.project__overlay {
+  display: flex;
+  position: absolute;
+  top: 0;
+  background-color: rgba(33, 150, 243, 0.9);
+  height: 294px;
+  width: auto;
+  padding-left: 24px;
+  padding-right: 45px;
+  transform: translateY(295px);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &-tekst {
+    color: $white-color;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.56;
+    letter-spacing: 0.03em;
+  }
+}
+
+.project__item {
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-bottom: 30px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.project__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.project__wrapper {
+  position: relative;
+  background-color: $white-color;
+  border: 1px solid #eeeeee;
+}
+@media screen and (min-width:320px) and (max-width:767px){
+   .project__img {
+    // width: 450px;
+    width: 100%;
+    height: 294px;
+  }
+  .project__wrapper {
+    max-width: 450px;
+  }
+  .project__item{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footer__adres{
+    display: grid;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 768px) and (max-width:1199px){
+  .project__img {
+    width: 354px;
+    height: 294px;
+  }
+  .project__item:first-child {
+    height: 100%;
+  }
+  // przez karte obok z zawinietym tekstem overlay wystawal od spodu
+  .project__item:first-child .project__img-spec{
+    margin-bottom: 35px;
+  }
+  .project__wrapper {
+    width: 354px;
+  }
+  .navigation-btn__list {  
+    width: 645px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .project__img {
+    width: 370px;
+    height: 294px;
+  }
+  .project__wrapper {
+    width: 370px;
+  }
+ 
+ 
+}

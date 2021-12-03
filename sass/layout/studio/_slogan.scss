@@ -1,0 +1,194 @@
+@media screen and(min-width:320px) and(max-width:767px) {
+.slogan {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/background/mobile_background-slogan_480x400.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-color: rgba(47, 48, 58, 1);
+    color: $white-color;
+    letter-spacing: 0.06em;
+    text-align: center;
+  font-size: 26px;
+  line-height: 1.615;
+  letter-spacing: 0.06em;
+  min-width: 320px;
+
+ 
+
+  &__title {
+    display: flex;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.363;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: $white-color;
+    padding-top: 118px;
+    padding-bottom: 30px;
+    justify-content: center;
+    cursor: default;
+    
+  }
+
+  &__button {
+    padding: 10px 42px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.875;
+    cursor: pointer;
+    text-align: center;
+    letter-spacing: 0.06em;
+    background-color: $main-color;
+    color: $white-color;
+    margin:auto;
+    margin-bottom: 118px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border-color: transparent;
+  }
+}
+
+  
+}    
+
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width:320px) and (max-width:767px),
+screen and (min-resolution: 192dpi) and (min-width:320px) and (max-width: 767px),
+screen and (min-resolution: 2dppx) and (min-width:320px) and(max-width:767px) {
+    .slogan {
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url(../images/background/mobile_background-slogan_960x800.jpg );
+        background-size:cover;
+        min-width: 480px;
+    }
+}
+@media screen and(min-width: 768px) and(max-width:1199px) {
+     .slogan {
+         background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/background/tablet_background-slogan_768x400.jpg);
+         background-size: cover;
+         background-repeat: no-repeat;
+         background-color: rgba(47, 48, 58, 1);
+         color: $white-color;
+         font-weight: 900;
+         letter-spacing: 0.06em;
+         font-size: 26px;
+         line-height: 1.61;
+         text-align: center;
+         width: 100%;
+
+         .slogan {
+  background: $background-color-dark;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/background/desktop_background-slogan_1600x600.jpg);
+  background-size: cover;
+
+  &__title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.363;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: $white-color;
+    padding-top: 200px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    cursor: default;
+  }
+
+  &__button {
+    padding: 10px 42px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.875;
+    cursor: pointer;
+    text-align: center;
+    letter-spacing: 0.06em;
+    background-color: $main-color;
+    color: $white-color;
+    margin:auto;
+    margin-bottom: 118px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border-color: transparent;
+  }
+}
+
+
+         
+     }
+     }
+@media screen and (min-device-pixel-ratio: 2) and (min-width:768px) ,
+screen and (min-resolution: 192dpi) and (min-width:768px),
+screen and (min-resolution: 2dppx) and (min-width:768px)  {
+    .slogan {
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+            url(../images/background/tablet_background-slogan_1536x800.jpg);
+        background-size: cover;
+        min-width: 768px;
+    }
+}
+
+
+
+@media screen and(min-width: 1200px) {
+    .slogan {
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/background/desktop_background-slogan_1600x600.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: rgba(47, 48, 58, 1);
+        color: $white-color;
+        font-weight: 900;
+        letter-spacing: 0.06em;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        width: 100%;
+
+        
+
+        .slogan {
+  background: $background-color-dark;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/background/desktop_background-slogan_1600x600.jpg);
+  background-size: cover;
+
+  &__title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.363;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: $white-color;
+    padding-top: 200px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    cursor: default;
+  }
+
+  &__button {
+    padding: 10px 42px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.875;
+    cursor: pointer;
+    text-align: center;
+    letter-spacing: 0.06em;
+    background-color: $main-color;
+    color: $white-color;
+    margin: auto;
+    margin-bottom: 200px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border-color: transparent;
+  }
+}
+
+    }
+}
+
+

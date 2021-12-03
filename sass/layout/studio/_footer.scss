@@ -1,0 +1,245 @@
+.footer {
+  display: flex;
+  background: $background-color-dark;
+  
+
+  .container {
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+.footer__address,
+.footer__mail,
+.footer__tel {
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  font-style: normal;
+  color: $white-color;
+}
+
+.footer__mail,
+.footer__tel {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.footer__tel {
+display: block;
+}
+
+
+
+.footer__join-as {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: $white-color;
+}
+
+.footer__icon-list {
+  display: flex;
+  flex-basis: content;
+  margin-top: 20px;
+}
+
+.logo {
+  float: left;
+}
+
+.footer__social {
+  margin-left: 70px;
+  margin-top: -20px;
+}
+
+.footer__icon-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social__icon2 {
+  width: 20px;
+  height: 20px;
+  fill: $white-color;
+}
+.footer__icon-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.footer__icon-social {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+
+  &:hover,
+  &:focus {
+    background-color: $main-color;
+    transition: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+.newsletter {
+  margin-left: 72px;
+  margin-top: -18px;
+
+  &__submit {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  &__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $white-color;
+  }
+}
+
+.newsletter__email {
+  color: rgba(255, 255, 255, 0.6);
+  padding-left: 16px;
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background: $background-color-dark;
+}
+
+.newsletter__btn {
+  color: $white-color;
+  width: 200px;
+  height: 50px;
+  background: $main-color;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  margin-left: 12px;
+
+  border: none;
+  cursor: pointer;
+}
+
+.newsletter__icon {
+  width: 130px;
+  height: 30px;
+}
+@media screen and(min-width: 320px) and (max-width:779px){
+  .footer .container  {
+    display: block;
+  }
+  .adres {
+    display: grid;
+    justify-content: center;
+  }
+  .footer__address{
+    margin-top: 20px;
+  }
+  .header__logo{
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer__mail{
+    display: flex;
+    justify-content: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+  .footer__tel{
+    display: flex;
+    justify-content: center;
+  }
+  .newsletter__submit{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .newsletter__email{
+    max-width:450px;
+  }
+  .footer__social{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin: auto;
+  }
+  .footer__join-as{
+    display:flex;
+    justify-content: center;
+  }
+  .newsletter{
+    margin: auto;
+  }
+  .newsletter__title{
+    display: flex;
+    justify-content: center;
+  }
+  .newsletter__email{
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width:780px) and (max-width:1199px) {
+ .footer .container {
+   display: flex;
+   flex-wrap: wrap;
+   padding-top: 60px;
+    padding-bottom: 60px;
+ }
+
+ .newsletter{
+   
+   margin:60px auto;
+ }
+ 
+   .newsletter__submit{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .newsletter__email{
+    max-width:450px;
+     margin-bottom: 20px;
+  }
+  .newsletter__title{
+    display: flex;
+    justify-content: center;
+  }
+  .adres {
+    display: grid;
+    justify-content: center;
+    margin:auto;
+  }
+  .footer__address{
+    margin-top: 20px;
+  }
+  .header__logo{
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer__mail{
+    display: flex;
+    justify-content: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+  .footer__tel{
+    display: flex;
+    justify-content: center;
+  }
+  .footer__social{
+    padding-left: 144px;
+    
+  }
+}

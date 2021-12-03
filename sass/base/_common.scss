@@ -1,0 +1,35 @@
+body {
+  font-family: $main-font;
+  color: $dark-color;
+}
+.main {
+  background: $white-color;
+}
+.main-portfolio {
+  background: $white-color;
+}
+h1,
+h2,
+h3,
+h5 {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+p {
+  padding: 0px;
+  margin: 0px;
+}
+
+img {
+  display: block;
+}
+
+.list {
+  list-style: none;
+}
