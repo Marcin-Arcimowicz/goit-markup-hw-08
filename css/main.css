@@ -322,7 +322,7 @@ img {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) {
   .modal {
     width: 450px;
     height: 609px;
@@ -844,7 +844,7 @@ img {
     margin-right: 43px;
   }
   .navigation__contact-link {
-    margin-right: 50px;
+    margin-right: 0px;
   }
   .navigation__contact {
     display: block;
@@ -1365,7 +1365,7 @@ img {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) {
   .slogan {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/background/tablet_background-slogan_768x400.jpg);
     background-size: cover;
@@ -1416,7 +1416,7 @@ img {
   }
 }
 
-@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px), screen and (min-resolution: 192dpi) and (min-width: 768px), screen and (min-resolution: 2dppx) and (min-width: 768px) {
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px) and (max-width: 1199px), (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px), screen and (min-resolution: 192dpi) and (min-width: 768px), screen and (min-resolution: 2dppx) and (min-width: 768px) {
   .slogan {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/background/tablet_background-slogan_1536x800.jpg);
     background-size: cover;
